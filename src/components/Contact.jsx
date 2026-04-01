@@ -33,6 +33,7 @@ export default function Contact() {
     setTimeout(() => {
       setStatus("success");
       setFormData({ name: "", email: "", message: "" });
+      setErrors({});
       setTimeout(() => setStatus("idle"), 3000);
     }, 1500);
   };
