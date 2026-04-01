@@ -127,6 +127,7 @@
 
 .project-card:hover .project-card__overlay {
   opacity: 1;
+  visibility: visible;
 }
 
 .project-card__overlay-btn {
@@ -182,7 +183,7 @@
   }
 
   .project-card--featured {
-    grid-column: span 2;
+    grid-column: span 1;
   }
 
   .projects__title {
