@@ -122,11 +122,15 @@
   gap: 12px;
   opacity: 0;
   visibility: hidden;
+  pointer-events: none;
   transition: var(--transition);
+  z-index: 10;
 }
 
 .project-card:hover .project-card__overlay {
   opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .project-card__overlay-btn {
@@ -182,7 +186,7 @@
   }
 
   .project-card--featured {
-    grid-column: span 2;
+    grid-column: span 1;
   }
 
   .projects__title {
