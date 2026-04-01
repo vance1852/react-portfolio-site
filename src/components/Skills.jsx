@@ -87,7 +87,7 @@ export default function Skills() {
                       <div
                         className="skill-item__fill"
                         style={{
-                          width: `${skill.level}%`,
+                          width: isVisible ? `${skill.level}%` : "0%",
                           transitionDelay: `${catIdx * 0.2 + skillIdx * 0.1}s`,
                         }}
                       ></div>
